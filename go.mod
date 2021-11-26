@@ -1,4 +1,4 @@
-module xlogs
+module github.com/StalkerOne/xlogs
 
 go 1.16
 

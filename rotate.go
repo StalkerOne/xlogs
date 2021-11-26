@@ -2,7 +2,8 @@ package xlogs
 
 import (
 	"io"
-	"xlogs/rotate"
+
+	"github.com/StalkerOne/xlogs/rotate"
 )
 
 func newRotate(config *LoggerConfig) io.Writer {
